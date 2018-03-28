@@ -1,0 +1,201 @@
+@charset "uft-8";
+
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Redressed');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC');
+@import url('https://fonts.googleapis.com/css?family=Schoolbell');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
+
+
+
+
+/* Colocando fonte e cor na janela modal de login*/
+h2#id_login{ /* adicionando fonte importada do google */
+	font-family: 'Patua One', cursive;
+	color: #000000;
+
+}
+/* Colocando fonte e cor na janela modal de cadastro*/
+h2#id_cadastro{
+	font-family: 'Patua One', cursive;
+	color: #000000;
+
+}
+
+/* Editando a fonte da janela modal de cadastro*/
+label#nome_cadastro {
+	font-family: 'Redressed', cursive;
+
+
+	}label#email_cadastro{
+		font-family: 'Redressed', cursive;
+
+	}
+
+	label#senha_cadastro{
+
+		font-family: 'Redressed', cursive;
+
+	}
+
+	label#senha2_cadastro{
+		font-family:'Redressed', cursive;
+
+	}
+
+	label#data_cadastro{
+
+		font-family: 'Redressed', cursive;
+
+	}
+
+	label#senha_login{
+
+		font-family: 'Redressed', cursive;
+
+	}
+
+	label#nome_login{
+
+		font-family: 'Redressed', cursive;
+
+	}
+
+	/* ---------------------------------------------------- */
+
+	/* Colocando uma foto como plano de fundo na página inicial*/
+	body{ 
+		background-image: url(../img/6.jpg) ;
+		background-repeat: repeat;
+		background-size: 60% 60%;	
+		background-attachment: fixed;
+
+		
+	}
+
+
+	/* Editando os Botões  de login e cadastro*/
+	#login{
+		margin-top: 25px; ;
+		text-decoration: none;
+		
+	}
+
+	#cadastrar{
+		margin-top: 25px;
+		text-decoration: none;
+
+	}
+	/* -------------------------------------------------*/
+	
+	/* Editando o nome  Green Leaf da página inicial*/
+
+	/* Class do Botão de login, que deixará o botão redendo*/
+	.button1{
+		border-style: solid;
+		background-color: #1E90FF;
+		border-radius: 400px;
+		color: white;
+		height: 48px;
+		padding: 0px 28px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 28px;
+		margin: 2px 7px;
+		cursor: pointer;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+		width: 20%;
+	}
+
+
+	/* Botão de cadastro */ 
+	.button3 {
+		border-style: solid;
+		background-color: #9AFF9A; /* Green */
+		border-radius: 400px;
+		height: 48px;
+		color: white;
+		padding: 0px 28px;
+		text-align: center;
+		text-decoration: und;
+		display: inline-block;
+		font-size: 20px;
+		size: 30px;
+		margin: 4px 2px;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
+		cursor: pointer;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+		width: 20%;
+
+	}
+
+	.button4 {
+		background-color: white; 
+		color: black; 
+		
+		
+	}
+
+	.button5:hover {
+		background-color: #009ACD;
+		color: black;
+
+	}
+
+	.button6:hover {
+		background-color: #76EE00;
+		color: black;
+	}
+
+	
+	/* Caixa do quem somos */
+	.conteudo{
+		margin-top: 30px;
+		color: 	black;
+		font-size: 1.2em;
+		box-shadow: 0 8px 16px 0 rgb(0,0,0), 0 6px 20px 0 rgb(0,0,0);
+		font-family: 'Amaranth', sans-serif;
+		letter-spacing:  1px;
+		background-color: white;
+
+	}
+
+	.curiosidade{
+  font-size: 5.5em;
+  color: rgba(0,0,0,);
+  font-family: 'Rancho', cursive;
+  text-align: center;
+
+}
+
+	button#quemsomos{
+		border-radius: 400px;
+		height: 40px;
+		margin-top: 40px;
+		width: 25%;
+	}
+
+	footer {
+		position: absolute; 
+		bottom: 0px; 
+		width: 100%; 
+		height: 60px; 
+
+	}
+
+	html {
+		position: relative;
+		min-height: 100%;
+	}
+
+	body {
+    margin: 0 0 60px; /* altura do  footer */
+}

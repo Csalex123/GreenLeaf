@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>  
+  <meta charset="utf-8">
+  <!-- Importando o Bootstrap, CSS e jquery-->
+  <title>Green Leaf</title>
+  <link rel="icon"  href="img/fav2.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1" media="all">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="all">
+
+  <link rel="stylesheet" type="text/css" href="css/galeria.css" media="all">
+
+  <link rel="stylesheet" type="text/css" href="css/index.css" media="all">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" media="all"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" media="all"></script>
+  <script src="jquery.js"></script>
+
+  
+
+
+</head>
+
+<body style="margin: 0 0 60px;
+             background-image: url(img/back3.jpg);
+             background-size: 100%; 
+             background-attachment:fixed; 
+             background-repeat: no-repeat;">
+<!-- Menu -->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#barra">
+
+       <span class="sr-only">Alternar navegação</span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span> 
+     </button>
+
+
+     <a class="navbar-brand logo" style="color: #7CFC00" id="green">Green leaf</a><!-- logo -->
+   </div>
+   <div class="collapse navbar-collapse" id="barra">
+    <!-- Menu -->
+    <ul class="nav navbar-nav">
+
+
+      <li><a href="index.html" class="btn " data-toggle="tooltip" title="Clique aqui para ir ao inicio da página" ><span class="glyphicon glyphicon-home" id="inicio"></span> INÍCIO</a></li><!-- Bloco de início. Icone importado da internet 'glyphicon-home' -->
+
+      <li><a href="multimidia.html" class="btn active " data-toggle="tooltip" title="Clique aqui para ir a Multimídia" style="color: #7CFC00"><span class="glyphicon glyphicon-picture" ></span> MULTIMÍDIA</a></li><!-- Bloco Multimídia. Icone importado da internet 'glyphicon-picture' -->
+
+      <li><a href="educação.html" class="btn " data-toggle="tooltip" title="Clique aqui para ir a parte de Educação"><span class="glyphicon glyphicon-education"></span> EDUCAÇÃO</a></li><!-- Bloco Educação. Icone importado da internet 'glyphicon-education' -->
+
+      <li><a href="peticoes.html" class="btn " data-toggle="tooltip" title="Clique aqui para ir a Petições" >PETIÇÕES</a></li>
+
+
+      
+
+
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="forum.html" class="btn" data-toggle="tooltip" title="Clique aqui para ir ao Fórum"">FÓRUM
+          <span class="caret" class="glyphicon glyphicon-edit" ></span></a>
+          <ul class="dropdown-menu barramenu" ">
+            <li><a href="forum.html" >Página Inicial Do Fórum</a></li>
+            <li><a href="fauna.html" >Fauna</a></li>
+            <li><a href="flora.html" >Flora</a></li>
+            <li><a href="animais.html" >Animais</a></li>
+            <li><a href="#"><b>Mais</b></a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right" >
+      <li class="dropdown margin"><a href="#"  class="dropdown-toggle" data-toggle="dropdown" href="#">
+        <span class="caret"">  
+        </span> 
+      Alex </a>
+      <ul class="dropdown-menu">
+        <li><a href="#" id="perfil">Perfil</a></li>
+        <li><a href="#" id="conf">Configurações</a></li>
+        <li><a href="paginainicial.html" id="sair">Sair</a></li>
+      </ul>
+    </li>    
+  </li>
+</ul>
+
+</div>
+</div>
+</nav>
+
+<!-- /nav -->
+
+
+
+
+
+<header class="geral">
+
+  <h1 align="center" style="color: #00008B" id="educacao">Galeria</h1><br>
+  
+</header>
+
+<div id="bla">
+  <ul id="album-fotos" type="none" class="img-responsive">
+
+    <li id="foto01" ><span>Foto de um galho</span></li>
+    <li id="foto02"><span>Foto de uma floresta</span></li>
+    <li id="foto03"><span>Foto de dois bancos</span></li>
+    <li id="foto04"><span>Bla bla</span></li>
+    <li id="foto05"><span>Bla bla</span></li>
+    <li id="foto05"><span>Bla bla</span></li>
+    <li id="foto05"><span>Bla bla</span></li>
+    <li id="foto06"><span>Bla bla</span></li>
+    <li id="foto06"><span>Bla bla</span></li>
+    <li id="foto06"><span>Bla bla</span></li>
+    <li id="foto03"><span>Foto de dois bancos</span></li>
+    <li id="foto03"><span>Foto de dois bancos</span></li>
+
+  </ul>
+
+
+  
+  <div class="center"> 
+    <div class="pagination">
+      <a href="#" class="active">1</a>
+      <a href="galeria3.html" >2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">6</a>
+      <a href="galeria3.html">&raquo;</a>
+    </div>
+  </div>
+</div>
+
+
+<br><br><br><br><br><br><br>
+
+<!-- Rodapé -->
+<footer>
+  <div class="footer container-fluid navbar-bottom">
+    <center>
+      <a href="#" target="_blank"><img src="img/instagram.png" height="25" width="25" align="left"></a>
+      <a href="#" target="_blank"><img src="img/tw.png" height="25" width="25" align="left"></a>
+      <a href="#" target="_blank"><img src="img/facebook.png" height="25" width="25" align="left"></a>
+      <b align="right" style="color: white;">&nbsp; &nbsp;&nbsp;  Copyright Green Leaf - 2017  &copy;</b>s
+    </div>
+  </center>
+
+</footer>
+</body>
+</html>

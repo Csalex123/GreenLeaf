@@ -1,0 +1,34 @@
+@charset "uft-8";
+@import url('https://fonts.googleapis.com/css?family=Rancho');
+
+/* Menu*/
+.navbar {
+ border: none;
+ padding: 3px 0px;
+ background: linear-gradient(to right, rgba(0,178, 238,.6) , rgba(0,178, 238, 1 ), rgba(0,178, 238, .6 ));
+
+}
+
+.logo{
+
+ font-family: 'Rancho', cursive;
+ font-size:2em;
+}
+
+/* Barra de navegação(menu) */
+.img-logo{
+
+ height: 50px;
+ width: 76px;
+ display: block;
+ background: url('img/fav2.png') /*no-repeat*/ ; 
+ background-size: contain;
+
+
+}
+
+/*Cores da fontes do menu */
+.navbar-inverse .navbar-nav>li>a {
+ color: black;
+}
+

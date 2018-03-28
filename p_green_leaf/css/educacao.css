@@ -1,0 +1,148 @@
+@charset "uft-8";
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Shadow');
+@import url('https://fonts.googleapis.com/css?family=Flavors');
+@import url('https://fonts.googleapis.com/css?family=Rancho');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
+h1#educacao{
+	color: black;
+	font-family: 'Rancho', cursive;
+	font-size: 7em;
+	 text-align: center;
+
+}
+
+.logo{
+	
+	font-family: 'Rancho', cursive;
+	font-size:2em;
+}
+
+
+     .curiosidade{
+  font-size: 7em;
+  color: black;
+  font-family: 'Rancho', cursive;
+  text-align: center;
+
+}
+
+.navbar {
+	border: none;
+	padding: 3px 0px;
+	 background: linear-gradient(to right, rgba(0,178, 238,.6) , rgba(0,178, 238, 1 ), rgba(0,178, 238, .6 ));
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: black;
+}
+
+
+/* Forum-menu */
+li>a#animais:hover{
+ background-color: #1E90FF
+ ;
+}
+
+li>a#dicas:hover{
+ background-color: #1E90FF
+ ;
+}
+
+li>a#outra_coisa:hover{
+ background-color: #1E90FF
+ ;
+}
+
+li>a#reciclagem:hover{
+ background-color: #1E90FF
+ ;
+}
+
+
+div{
+	margin-left: 8px;
+	margin-right: 17px;
+}
+
+
+a#perfil:hover{
+	background-color: green;
+}
+
+a#conf:hover{
+	background-color: green;
+}
+
+a#sair:hover{
+	background-color: green;
+}
+
+body{
+	
+	background-color: lightblue;
+}
+
+div#container_edu{
+	color: white;
+	 box-shadow: 0 8px 16px 8px rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0.6);
+	 margin-left: 60px;
+	 margin-right: 20px;
+	background-color: #008B45;
+}
+
+/*Conteiner de curiosidades */
+div#inicial2{
+ box-shadow: 0 8px 16px 8px rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0.6);
+ margin-top: 20px;
+ margin-left: 120px;
+ margin-bottom: 50px;
+ background-color: rgba(255 ,250, 250, 0.8);
+}
+
+.conteinercuriosidade{
+  background-color: rgba(255 ,250, 250, 0.8);
+  box-shadow: 0 8px 16px 8px rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0.6);
+}
+
+.fotos{
+  border-radius: 11px;
+  box-shadow: 0 8px 16px 8px rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.6);
+}
+
+
+img:hover{
+	-webkit-transition: all .4s ease-in;
+	-webkit-transform: scale(1.2);
+}
+
+.educ{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px;
+	
+}
+
+.dicas{
+	
+		border-radius: 20px;
+		height: 50px;		
+		width: 300px;
+		font-family: 'Rancho', cursive; 
+		color: black; 
+		font-size: 25px;
+		background-color: #8B5A2B;
+}
+
+
+.conteudo{
+		margin-top: 30px;
+		color: 	black;
+		font-size: 1.2em;
+		box-shadow: 0 8px 16px 0 rgb(0,0,0), 0 6px 20px 0 rgb(0,0,0);
+		font-family: 'Amaranth', sans-serif;
+		letter-spacing:  1px;
+		background-color: white;
+
+	}

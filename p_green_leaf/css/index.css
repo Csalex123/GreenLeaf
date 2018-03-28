@@ -1,0 +1,253 @@
+@charset "uft-8";
+
+
+
+
+
+/*  carouel */
+
+@media(min-width: 1024px) {
+ .div-img-carousel, .item.active {
+  overflow: hidden;
+  width: 780px;
+  height: 360px;
+  margin: 0 auto;
+
+
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%
+
+}
+
+#meuSlider {
+  width: 600px;
+  height: 360px;
+  align-items: center;
+  
+}
+
+
+/* /-----------------------*/
+
+
+/* usuário-menu*/
+a#perfil:hover{
+ background-color: green;
+}
+
+a#conf:hover{
+ background-color: green;
+}
+
+a#sair:hover{
+ background-color: green;
+}
+
+/* Conteiner de notícias */
+div#inicial{
+ box-shadow: 0 8px 16px 8px rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0.6);
+ margin-top: 20px;
+ margin-left: 120px;
+ margin-bottom: 50px;
+ background-color: rgba(255 ,250, 250, 0.8);
+}
+
+/*Conteiner de curiosidades */
+div#inicial2{
+ box-shadow: 0 8px 16px 8px rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0.6);
+ margin-top: 20px;
+ margin-left: 120px;
+ margin-bottom: 50px;
+ background-color: rgba(255 ,250, 250, 0.8);
+}
+
+
+
+.fotos{
+  border-radius: 2px;
+  box-shadow: 0 8px 16px 8px rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.6);
+}
+/* Plano de fundo*/
+body{
+ background-image: url(img/arco.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ background-attachment: fixed;
+}
+
+/* Forum-menu */
+li>a#animais:hover{
+ background-color: #1E90FF
+ ;
+}
+
+li>a#dicas:hover{
+ background-color: #1E90FF
+ ;
+}
+
+li>a#outra_coisa:hover{
+ background-color: #1E90FF
+ ;
+}
+
+li>a#reciclagem:hover{
+ background-color: #1E90FF
+ ;
+}
+
+
+
+
+.curio{
+
+  float: center;
+  width: 1420px;
+  height: 50px;
+
+}
+
+.curios{ margin-left:1.5cm;}
+
+#vejamais{
+
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  display: inline-block;
+  font-family: 'Acme', sans-serif;
+  margin-left:8cm;
+  margin-bottom: 50px;
+  background-color: rgba(255 ,250, 250, 0.8);  
+  box-shadow: 0 8px 16px 8px rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0.6);
+}
+
+#vejamais:hover{
+  background-color: #00FF7F;
+  text-decoration: none;
+}
+
+/* Paginação */
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#trump{
+   
+  font-size: 13px;
+  text-align: center; 
+  background-color: rgba(255 ,250, 250, 0.8);  
+  box-shadow: 0 4px 8px 4px; 
+  margin-left: 70px;
+  margin-right: 0px;
+  padding: 10px;
+}
+
+.img{
+  margin-left: 3em;
+  border-radius: 2px;
+  box-shadow: 0 8px 16px 8px rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.6);
+  margin-bottom: 2em;
+  margin-top: 3em;
+}
+
+.img2{
+  margin-left: 2em;
+  border-radius: 2px;
+  box-shadow: 0 8px 16px 8px rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.6);
+  margin-bottom: 2em;
+  margin-top: 3em;
+
+}
+
+.img3{
+  margin-left: 2em;
+  border-radius: 2px;
+  box-shadow: 0 8px 16px 8px rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.6);
+  margin-bottom: 2em;
+  margin-top: 3em;
+ 
+
+}
+
+
+.but{
+
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; 
+  background-color: #696969;  
+  box-shadow: 0 2px 8px 2px; 
+  margin-left: 110px;
+  margin-bottom: 4cm;
+  padding: 10px;
+  color: black;
+
+}
+
+.but2{
+
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; 
+  background-color: #696969;  
+  box-shadow: 0 2px 8px 2px; 
+  margin-left: 30px;
+  padding: 10px;
+  color: black;
+}
+
+.links{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Barra de rolagem */
+::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
