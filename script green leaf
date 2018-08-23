@@ -1,0 +1,68 @@
+create table usuario(
+id_usuario int AUTO_INCREMENT PRIMARY KEY,
+email varchar(65) not null unique,
+nome varchar(50) not null,
+sexo varchar(1) not null,
+senha varchar(130) not null,
+data_nascimento date not null,
+descricao varchar(500) not null,
+foto varchar(100) not null
+);
+
+create table publicacao(
+id_publicacao int AUTO_INCREMENT PRIMARY KEY,
+titulo varchar(300) not null ,
+tema varchar(100) not null,
+data_hora timestamp not null,
+conteudo varchar(2000) not null,
+id_usuario int not null,
+FOREIGN key (id_usuario) references usuario (id_usuario)
+);
+
+create table administrador(
+id_adm int AUTO_INCREMENT PRIMARY KEY,
+login varchar(15)  not null unique,
+senha varchar(130) not null,
+nivel int not null,
+nome varchar(45) not null
+);
+
+create table comentario(
+id_comentario int AUTO_INCREMENT PRIMARY KEY,
+data_hora timestamp not null,
+conteudo text not null,
+id_publicacao int not null,
+id_usuario int not null,
+FOREIGN key (id_usuario) references usuario (id_usuario),
+FOREIGN key (id_publicacao) references publicacao (id_publicacao)
+);
+
+create table noticia(
+id_noticia int AUTO_INCREMENT PRIMARY KEY,
+data_hora timestamp not null,
+titulo varchar(300) not null,
+conteudo varchar(4000) not null,
+fonte varchar(180) not null,
+foto varchar(100) not null
+);
+
+create table peticao(
+id_peticao int AUTO_INCREMENT PRIMARY KEY,
+link varchar(150) not null,
+titulo varchar(200) not null,
+foto varchar(120) not null
+);
+
+create table curiosidade(
+id_curiosidade int AUTO_INCREMENT PRIMARY KEY,
+descricao varchar(500) not null,
+foto varchar(120) not null
+);
+
+create table video(
+id_video int AUTO_INCREMENT PRIMARY KEY,
+titulo varchar(200) not null,
+link_video varchar(250) not null,
+categoria varchar(100) not null
+);
+
